@@ -3,6 +3,7 @@
     $viguier = "viguier";
     $saintclair = "saintclair";
     $projetS2 = "projetS2";
+    $classroom = "classroom";
 
     $finalURL = "";
 
@@ -15,6 +16,9 @@
             break;
         case $projetS2:
             $finalURL = "https://aygoun.github.io/Attack-On-Castle-Web.github.io/";
+            break;
+        case $classroom:
+            $finalURL = "http://projects.armandblin.com/classroom/"; //http://r.armandblin.com/?c=classroom
             break;
         default:
             $finalURL = "";
