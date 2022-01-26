@@ -24,7 +24,7 @@ const projects = {
       footerLink: [
         {
           name: "Show project",
-          url: "http://r.armandblin.com/?c=saintclair"
+          url: "http://r.armandblin.com/?c=viguier"
         }
         //  you can add extra buttons here.
       ]
