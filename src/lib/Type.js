@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "A passionate Developer 💻 !",
-          "Please contact me!"
+          "Contact me!"
         ],
         autoStart: true,
         loop: true,

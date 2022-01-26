@@ -16,7 +16,7 @@ const projects = {
     {
       image: require("./assets/images/viguier.png"),
       projectName: "Maître Constance Viguier",
-      projectDesc: "A small website (using PHP/SQL) to illustrate the work of of the bailiff Constance Viguier.",
+      projectDesc: "A small website (using PHP/SQL) to illustrate the work of the bailiff Maître Constance Viguier.",
       projectView: "👀 by ~400 visitors/month",
       projectStatus: "[PROJECT DONE]",
       projectSecondStatus: "",
@@ -32,7 +32,7 @@ const projects = {
     {
       image: require("./assets/images/classroom.png"),
       projectName: "Classroom",
-      projectDesc: "A website (using PHP/SQL) to people in my high school to see their class and who is there.",
+      projectDesc: "A website (using PHP/SQL) to generate class lists from my high school.",
       projectView: "👀 by ~480 unique visitors",
       projectStatus: "[PROJECT DONE]",
       projectSecondStatus: "",
@@ -48,7 +48,7 @@ const projects = {
     {
       image: require("./assets/images/domainedesaintclair.png"),
       projectName: "Domaine de Saint Clair",
-      projectDesc: "A website to gives visibility to a bed and breakfast.",
+      projectDesc: "A website to give visibility to a bed and breakfast.",
       projectView: "👀 by +1300 visitors/month",
       projectStatus: "[PROJECT DONE]",
       projectSecondStatus: "",
@@ -67,12 +67,12 @@ const projects = {
       projectDesc: "A social network (developed in Swift 5) which allows users to create, organize, manage and invite colleagues and friends to events.",
       projectView: "Has been Top 142/200 iOS Social Media Ranking",
       projectStatus: "Version 1 : [PROJECT DONE]",
-      projectSecondStatus: "Version 2 : [IN DEVELOPMENT]",
+      projectSecondStatus: "Version 2: [IN DEVELOPMENT]",
       footerDisplay: false,
       footerLink: [
         {
           name: "Show project",
-          url: "#"
+          url: ""
         }
         //  you can add extra buttons here.
       ]
@@ -165,6 +165,12 @@ const educationInfo = {
       descBullets: [
         "Actually in first year of this degree."
       ]
+    },
+    {
+      schoolName: "Lycée La Nativité",
+      logo: require("./assets/images/la_nativite.jpg"),
+      subHeader: "French Baccalaureate with Mathematics and Chemistry-Physics ",
+      duration: "June 2021"
     }
   ]
 };
@@ -198,7 +204,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
+      companylogo: require("./"),
       date: "September 2020 – Present",
       desc:
         "Changing lives of developers one line of code at a time.",
@@ -212,7 +218,7 @@ const workExperiences = {
     {
       role: "Product Owner (PSD2)",
       company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
+      companylogo: require("./"),
       date: "July 2019 – September 2020",
       desc:
         "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
@@ -220,7 +226,7 @@ const workExperiences = {
     {
       role: "Junior Information Security & Systems Representative",
       company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
+      companylogo: require("./"),
       date: "November 2018 – July 2019",
       desc:
         "I've conducted internal audit making sure the organization is compliant with the GDPR."
@@ -284,7 +290,7 @@ const achievementSection = {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./"),
       footerLink: [
         {
           name: "Certification",
@@ -307,7 +313,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./"),
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -320,7 +326,7 @@ const achievementSection = {
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./"),
       footerLink: [
         {name: "Certification", url: ""},
         {
