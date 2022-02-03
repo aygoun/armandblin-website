@@ -88,7 +88,7 @@ const greeting = {
     "A passionate Developer 💻 !"
   ),
   resumeLink:
-    "https://google.com/",
+    "https://armandblin.com/static/media/CV_Armand_Blin_EN.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -105,7 +105,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My skills",
-  subTitle: "THIS IS SOME OF MY SKILLS",
+  subTitle: "THIS ARE SOME OF MY SKILLS",
   skills: [
     emoji(
       "🔥 Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -161,10 +161,10 @@ const educationInfo = {
       logo: require("./assets/images/epita.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2021 - June 2026",
-      desc: "All of my EPITA projects are on my github.",
-      descBullets: [
+      desc: "All of my EPITA projects are on my GitHub.",
+      /*descBullets: [
         "Actually in first year of this degree."
-      ]
+      ]*/
     },
     {
       schoolName: "Lycée La Nativité",

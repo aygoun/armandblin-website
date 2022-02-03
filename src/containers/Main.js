@@ -52,7 +52,7 @@ export default class Main extends Component {
           <Header />
           <Greeting />
           <Skills />
-          {/*<Resume />*/}
+          <Resume />
           <StackProgress />
           <Education />
           <WorkExperience />

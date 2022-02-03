@@ -9,7 +9,7 @@ export default function Resume_button() {
             <div class="d-flex flex-column min-vh-100 align-items-center">
                 <h1>You like my work?</h1>
                 <p>Check my resume!</p>
-                <a class="myButton" href={greeting.resumeLink} target="_blank">Get Started</a>
+                <a class="myButton" href={greeting.resumeLink} target="_blank">RESUME</a>
             </div>     
         </div>
         );
